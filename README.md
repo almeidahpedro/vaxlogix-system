@@ -1,70 +1,79 @@
 # 💉 VaxLogix System
 
-**VaxLogix** é um sistema de gestão focado no controle de aplicação de vacinas. A plataforma oferece uma estrutura organizada para o cadastro de empresas e a administração do fluxo de entrada e saída de vacinas tratadas como materiais técnicos e controlados.
+> 🚧 **Status do Projeto: Em desenvolvimento inicial**  
+> Este sistema está em fase de estruturação de layout, banco de dados e funcionalidades.
+
+**VaxLogix** é um sistema de gestão técnica voltado ao controle de campanhas de vacinação corporativa. A aplicação permite o cadastro e a rastreabilidade de vacinas, empresas, colaboradores e ações de aplicação, garantindo organização, controle e base para análise futura.
 
 ---
 
 ## 🧭 Visão Geral
 
-O sistema foi idealizado para atender demandas de rastreabilidade, controle logístico e gestão de imunizantes em um ambiente multiempresa, com foco em:
+O sistema tem como finalidade a gestão centralizada dos processos relacionados à vacinação em ambiente empresarial, contemplando os seguintes módulos:
 
-- 📋 Cadastro de empresas aplicadoras
-- 📦 Controle de vacinas (materiais)
-- 🔄 Registro de movimentações (entrada/saída)
-- 📈 Base para relatórios e indicadores de uso
+- 🏢 **Gestão de empresas**: cadastro e manutenção de entidades participantes das campanhas de vacinação;
+- 👥 **Gestão de colaboradores**: registro dos funcionários das empresas-alvo que receberão as vacinas;
+- 🧑‍⚕️ **Gestão de aplicadores**: controle dos profissionais vinculados à empresa responsável pela aplicação das vacinas;
+- 💉 **Controle de vacinas**: cadastro técnico contendo nome comercial, informações adicionais, lote, data de fabricação e quantidade;
+- 📊 **Relatórios de movimentação**: rastreamento de entrada e saída de vacinas por empresa, com base em lote e data;
+- 📢 **Campanhas de vacinação**: registro completo de campanhas, vinculando vacinas, lotes, empresas atendidas, aplicadores e responsáveis pelo registro.
+
+---
+
+## 🧪 Tecnologias Utilizadas
+
+- **Frontend**: HTML, CSS, JavaScript (interface da aplicação)
+- **Backend**: PHP (operações básicas de integração e persistência)
+- **Banco de Dados**: MySQL (armazenamento estruturado de dados)
 
 ---
 
 ## 📌 Objetivos
 
-- Centralizar a gestão de vacinas por lote, data, empresa e tipo.
-- Organizar o estoque técnico de imunizantes.
-- Acompanhar a movimentação precisa de materiais.
-- Criar uma estrutura sólida para escalabilidade futura (ex: notificações, integração com sistemas de saúde, geração de relatórios).
+O VaxLogix foi desenvolvido com o propósito de:
+
+- Oferecer uma solução centralizada para o gerenciamento de vacinação corporativa;
+- Controlar de forma precisa a movimentação de vacinas por lote e empresa;
+- Garantir rastreabilidade dos envolvidos (empresas, colaboradores e aplicadores);
+- Fornecer uma base confiável para auditoria e relatórios operacionais.
 
 ---
 
 ## 🧱 Estrutura Inicial (Planejada)
 
 - **Empresas**
-  - Cadastro e gerenciamento de instituições autorizadas.
-- **Vacinas (Materiais)**
-  - Dados de lote, validade, fabricante, tipo.
-- **Movimentações**
-  - Entradas: recebimento de vacinas.
-  - Saídas: aplicações, transferências, perdas.
-- **Interface administrativa**
-  - Tela de login, painel de controle e histórico de ações.
-
----
-
-## 🚧 Status
-
-> **Em desenvolvimento inicial**  
-Atualmente em fase de estruturação do sistema e definição de modelos de dados. As tecnologias utilizadas serão listadas nas próximas etapas do projeto.
+  - Cadastro e vínculo com endereço e categoria (ramo de atuação).
+- **Vacinas**
+  - Controle de nome, informação, lote, fabricação e quantidade.
+- **Colaboradores**
+  - Funcionários das empresas que receberão as vacinas.
+- **Aplicadores**
+  - Profissionais responsáveis pela aplicação nas campanhas.
+- **Campanhas**
+  - Registro com data, doses aplicadas, devoluções e vínculos com empresas, vacinas e profissionais.
+- **Relatórios**
+  - Geração futura baseada em movimentações registradas.
 
 ---
 
 ## 🧠 Sobre o Nome
 
-**VaxLogix** vem da união de:
-- **Vax** → Abreviação moderna de “vaccine”
-- **Logix** → Referência a lógica, gestão e automação de processos
+**VaxLogix** une dois conceitos fundamentais do sistema:
 
-O nome traduz a proposta de um sistema **eficiente, técnico e voltado à gestão inteligente de vacinas**.
+- **Vax** → abreviação moderna de “vaccine” (vacina)
+- **Logix** → referência à lógica, automação e processos técnicos
+
+O nome expressa a proposta de uma plataforma **voltada à gestão racional, segura e inteligente de vacinas**.
 
 ---
 
 ## 📁 Repositório
 
-**Nome:** `vaxlogix-system`  
-Este repositório servirá como base principal para o projeto, podendo futuramente ser dividido em módulos (API, web, etc.).
+**Nome do repositório:** `vaxlogix-system`  
+Este repositório concentra a base do sistema, com desenvolvimento de interface (frontend), integração via PHP e persistência em banco MySQL.
 
 ---
 
-## 🧪 Projeto de Estudo
+## 🎓 Projeto de Estudo
 
-Este sistema é um projeto acadêmico e/ou experimental, voltado à prática de desenvolvimento de sistemas com foco em gestão de materiais médicos.
-
----
-
+Este é um projeto de estudo/desenvolvimento experimental com fins acadêmicos, técnicos e práticos, sem fins comerciais, voltado à aplicação de conceitos de frontend, backend básico e modelagem relacional para cenários do setor de saúde corporativa.

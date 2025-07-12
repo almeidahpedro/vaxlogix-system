@@ -39,23 +39,6 @@ O VaxLogix foi desenvolvido com o propósito de:
 
 ---
 
-## 🧱 Estrutura Inicial (Planejada)
-
-- **Empresas**
-  - Cadastro e vínculo com endereço e categoria (ramo de atuação).
-- **Vacinas**
-  - Controle de nome, informação, lote, fabricação e quantidade.
-- **Colaboradores**
-  - Funcionários das empresas que receberão as vacinas.
-- **Aplicadores**
-  - Profissionais responsáveis pela aplicação nas campanhas.
-- **Campanhas**
-  - Registro com data, doses aplicadas, devoluções e vínculos com empresas, vacinas e profissionais.
-- **Relatórios**
-  - Geração futura baseada em movimentações registradas.
-
----
-
 ## 🧠 Sobre o Nome
 
 **VaxLogix** une dois conceitos fundamentais do sistema:
@@ -77,3 +60,11 @@ Este repositório concentra a base do sistema, com desenvolvimento de interface 
 ## 🎓 Projeto de Estudo
 
 Este é um projeto de estudo/desenvolvimento experimental com fins acadêmicos, técnicos e práticos, sem fins comerciais, voltado à aplicação de conceitos de frontend, backend básico e modelagem relacional para cenários do setor de saúde corporativa.
+
+---
+
+## 🌐 Projeto em Execução
+
+Acesse o ambiente online do projeto:
+
+🔗 [https://almeidahproject.free.nf/vaxlogix/](https://almeidahproject.free.nf/vaxlogix/)

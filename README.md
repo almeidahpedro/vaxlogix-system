@@ -1,70 +1,96 @@
-# 💉 VaxLogix System
+<h1>💉 VaxLogix System</h1>
 
-> 🚧 **Status do Projeto: Em desenvolvimento inicial**  
-> Este sistema está em fase de estruturação de layout, banco de dados e funcionalidades.
+<h2>🚧 Status do Projeto — <span style="color: #ff6600;">0%</span></h2>
 
-**VaxLogix** é um sistema de gestão técnica voltado ao controle de campanhas de vacinação corporativa. A aplicação permite o cadastro e a rastreabilidade de vacinas, empresas, colaboradores e ações de aplicação, garantindo organização, controle e base para análise futura.
+<details open>
+  <summary><strong>Mostrar progresso técnico</strong></summary>
+  <ul style="font-size: 12px; color: #666666; font-style: italic; list-style: none; padding-left: 0;">
+    <li>☐ Estrutura inicial do layout de navegação e tela de login (UX design)</li>
+    <li>☐ Planejamento e início da modelagem do banco de dados relacional</li>
+    <li>☐ Definição de entidades principais: Empresa, Colaborador, Aplicador, Vacina</li>
+    <li>☐ Esboço do CRUD em PHP para operações básicas de cadastro</li>
+    <li>☐ Conexão inicial entre PHP e MySQL para testes locais</li>
+  </ul>
+</details>
 
----
+<hr>
 
-## 🧭 Visão Geral
+<h2>🧭 Visão Geral</h2>
 
-O sistema tem como finalidade a gestão centralizada dos processos relacionados à vacinação em ambiente empresarial, contemplando os seguintes módulos:
+<p>
+  VaxLogix é um sistema de gestão técnica voltado ao controle de campanhas de vacinação corporativa.<br>
+  A aplicação permite o cadastro e rastreamento de vacinas, empresas, colaboradores e ações realizadas, oferecendo uma base para controle e análise.
+</p>
 
-- 🏢 **Gestão de empresas**: cadastro e manutenção de entidades participantes das campanhas de vacinação;
-- 👥 **Gestão de colaboradores**: registro dos funcionários das empresas-alvo que receberão as vacinas;
-- 🧑‍⚕️ **Gestão de aplicadores**: controle dos profissionais vinculados à empresa responsável pela aplicação das vacinas;
-- 💉 **Controle de vacinas**: cadastro técnico contendo nome comercial, informações adicionais, lote, data de fabricação e quantidade;
-- 📊 **Relatórios de movimentação**: rastreamento de entrada e saída de vacinas por empresa, com base em lote e data;
-- 📢 **Campanhas de vacinação**: registro completo de campanhas, vinculando vacinas, lotes, empresas atendidas, aplicadores e responsáveis pelo registro.
+<ul style="list-style: none; padding-left: 0;">
+  <li>🏢 <strong>Empresas:</strong> cadastro e manutenção de entidades participantes</li>
+  <li>👥 <strong>Colaboradores:</strong> registro de funcionários vinculados às empresas</li>
+  <li>🧑‍⚕️ <strong>Aplicadores:</strong> controle de profissionais de saúde atuantes</li>
+  <li>💉 <strong>Vacinas:</strong> cadastro técnico com nome, lote, validade e estoque</li>
+  <li>📊 <strong>Movimentações:</strong> rastreamento de entrada e saída de vacinas</li>
+  <li>📢 <strong>Campanhas:</strong> controle completo de ações com vínculos operacionais</li>
+</ul>
 
----
+<hr>
 
-## 🧪 Tecnologias Utilizadas
+<h2>📚 Tecnologias</h2>
 
-- **Frontend**: HTML, CSS, JavaScript (interface da aplicação)
-- **Backend**: PHP (operações básicas de integração e persistência)
-- **Banco de Dados**: MySQL (armazenamento estruturado de dados)
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
----
+<hr>
 
-## 📌 Objetivos
+<h2>📌 Objetivos</h2>
 
-O VaxLogix foi desenvolvido com o propósito de:
+<ul style="list-style: none; padding-left: 0;">
+  <li>Gerenciar processos de vacinação corporativa em ambiente centralizado</li>
+  <li>Controlar a movimentação de vacinas por lote e por empresa</li>
+  <li>Garantir rastreabilidade dos envolvidos: empresas, colaboradores e aplicadores</li>
+  <li>Fornecer base confiável para relatórios operacionais e auditorias</li>
+</ul>
 
-- Oferecer uma solução centralizada para o gerenciamento de vacinação corporativa;
-- Controlar de forma precisa a movimentação de vacinas por lote e empresa;
-- Garantir rastreabilidade dos envolvidos (empresas, colaboradores e aplicadores);
-- Fornecer uma base confiável para auditoria e relatórios operacionais.
+<hr>
 
----
+<h2>🧠 Sobre o Nome</h2>
 
-## 🧠 Sobre o Nome
+<ul style="list-style: none; padding-left: 0;">
+  <li><code>Vax</code> → abreviação moderna de "vaccine" (vacina)</li>
+  <li><code>Logix</code> → referência à lógica, automação e processos técnicos</li>
+</ul>
 
-**VaxLogix** une dois conceitos fundamentais do sistema:
+<hr>
 
-- **Vax** → abreviação moderna de “vaccine” (vacina)
-- **Logix** → referência à lógica, automação e processos técnicos
+<h2>📁 Repositório</h2>
 
-O nome expressa a proposta de uma plataforma **voltada à gestão racional, segura e inteligente de vacinas**.
+<ul style="list-style: none; padding-left: 0;">
+  <li><strong>Nome:</strong> <code>vaxlogix-system</code></li>
+  <li>Repositório com interface, integração PHP e banco de dados MySQL</li>
+</ul>
 
----
+<hr>
 
-## 📁 Repositório
+<h2>🎓 Projeto de Estudo</h2>
 
-**Nome do repositório:** `vaxlogix-system`  
-Este repositório concentra a base do sistema, com desenvolvimento de interface (frontend), integração via PHP e persistência em banco MySQL.
+<p>
+  Projeto acadêmico e técnico, sem fins comerciais, voltado ao estudo de:
+</p>
 
----
+<ul style="list-style: none; padding-left: 0;">
+  <li>Desenvolvimento de interfaces web (Frontend)</li>
+  <li>Lógica e operações com PHP (Backend)</li>
+  <li>Modelagem e manipulação de dados com MySQL</li>
+  <li>Organização modular para aplicações na área da saúde corporativa</li>
+</ul>
 
-## 🎓 Projeto de Estudo
+<hr>
 
-Este é um projeto de estudo/desenvolvimento experimental com fins acadêmicos, técnicos e práticos, sem fins comerciais, voltado à aplicação de conceitos de frontend, backend básico e modelagem relacional para cenários do setor de saúde corporativa.
+<h2>🌐 Projeto em Execução</h2>
 
----
-
-## 🌐 Projeto em Execução
-
-Acesse o ambiente online do projeto:
-
-🔗 [https://almeidahproject.free.nf/vaxlogix/](https://almeidahproject.free.nf/vaxlogix/)
+<p>
+  🔗 <a href="https://almeidahproject.free.nf/vaxlogix/" target="_blank">https://almeidahproject.free.nf/vaxlogix/</a>
+</p>

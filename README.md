@@ -4,13 +4,13 @@
 
 <details open>
   <summary><strong>Mostrar progresso técnico</strong></summary>
-  <ul style="font-size: 12px; color: #666666; font-style: italic; list-style: none; padding-left: 0;">
-    <li>☐ Estrutura inicial do layout de navegação e tela de login (UX design)</li>
-    <li>☐ Planejamento e início da modelagem do banco de dados relacional</li>
-    <li>☐ Definição de entidades principais: Empresa, Colaborador, Aplicador, Vacina</li>
-    <li>☐ Esboço do CRUD em PHP para operações básicas de cadastro</li>
-    <li>☐ Conexão inicial entre PHP e MySQL para testes locais</li>
-  </ul>
+  <p style="font-size: 12px; color: #666666; font-style: italic;">
+    ☐ Estrutura inicial do layout de navegação e tela de login (UX design)<br>
+    ☐ Planejamento e início da modelagem do banco de dados relacional<br>
+    ☐ Definição de entidades principais: Empresa, Colaborador, Aplicador, Vacina<br>
+    ☐ Esboço do CRUD em PHP para operações básicas de cadastro<br>
+    ☐ Conexão inicial entre PHP e MySQL para testes locais
+  </p>
 </details>
 
 <hr>
@@ -22,14 +22,14 @@
   A aplicação permite o cadastro e rastreamento de vacinas, empresas, colaboradores e ações realizadas, oferecendo uma base para controle e análise.
 </p>
 
-<ul style="list-style: none; padding-left: 0;">
-  <li>🏢 <strong>Empresas:</strong> cadastro e manutenção de entidades participantes</li>
-  <li>👥 <strong>Colaboradores:</strong> registro de funcionários vinculados às empresas</li>
-  <li>🧑‍⚕️ <strong>Aplicadores:</strong> controle de profissionais de saúde atuantes</li>
-  <li>💉 <strong>Vacinas:</strong> cadastro técnico com nome, lote, validade e estoque</li>
-  <li>📊 <strong>Movimentações:</strong> rastreamento de entrada e saída de vacinas</li>
-  <li>📢 <strong>Campanhas:</strong> controle completo de ações com vínculos operacionais</li>
-</ul>
+<p>
+  🏢 <strong>Empresas:</strong> cadastro e manutenção de entidades participantes<br>
+  👥 <strong>Colaboradores:</strong> registro de funcionários vinculados às empresas<br>
+  🧑‍⚕️ <strong>Aplicadores:</strong> controle de profissionais de saúde atuantes<br>
+  💉 <strong>Vacinas:</strong> cadastro técnico com nome, lote, validade e estoque<br>
+  📊 <strong>Movimentações:</strong> rastreamento de entrada e saída de vacinas<br>
+  📢 <strong>Campanhas:</strong> controle completo de ações com vínculos operacionais
+</p>
 
 <hr>
 
@@ -47,45 +47,42 @@
 
 <h2>📌 Objetivos</h2>
 
-<ul style="list-style: none; padding-left: 0;">
-  <li>Gerenciar processos de vacinação corporativa em ambiente centralizado</li>
-  <li>Controlar a movimentação de vacinas por lote e por empresa</li>
-  <li>Garantir rastreabilidade dos envolvidos: empresas, colaboradores e aplicadores</li>
-  <li>Fornecer base confiável para relatórios operacionais e auditorias</li>
-</ul>
+<p>
+  ✔️ Gerenciar processos de vacinação corporativa em ambiente centralizado<br>
+  ✔️ Controlar a movimentação de vacinas por lote e por empresa<br>
+  ✔️ Garantir rastreabilidade dos envolvidos: empresas, colaboradores e aplicadores<br>
+  ✔️ Fornecer base confiável para relatórios operacionais e auditorias
+</p>
 
 <hr>
 
 <h2>🧠 Sobre o Nome</h2>
 
-<ul style="list-style: none; padding-left: 0;">
-  <li><code>Vax</code> → abreviação moderna de "vaccine" (vacina)</li>
-  <li><code>Logix</code> → referência à lógica, automação e processos técnicos</li>
-</ul>
+<p>
+  <code>Vax</code> → abreviação moderna de "vaccine" (vacina)<br>
+  <code>Logix</code> → referência à lógica, automação e processos técnicos
+</p>
 
 <hr>
 
 <h2>📁 Repositório</h2>
 
-<ul style="list-style: none; padding-left: 0;">
-  <li><strong>Nome:</strong> <code>vaxlogix-system</code></li>
-  <li>Repositório com interface, integração PHP e banco de dados MySQL</li>
-</ul>
+<p>
+  <strong>Nome:</strong> <code>vaxlogix-system</code><br>
+  Repositório com interface, integração PHP e banco de dados MySQL
+</p>
 
 <hr>
 
 <h2>🎓 Projeto de Estudo</h2>
 
 <p>
-  Projeto acadêmico e técnico, sem fins comerciais, voltado ao estudo de:
+  Projeto acadêmico e técnico, sem fins comerciais, voltado ao estudo de:<br>
+  — Desenvolvimento de interfaces web (Frontend)<br>
+  — Lógica e operações com PHP (Backend)<br>
+  — Modelagem e manipulação de dados com MySQL<br>
+  — Organização modular para aplicações na área da saúde corporativa
 </p>
-
-<ul style="list-style: none; padding-left: 0;">
-  <li>Desenvolvimento de interfaces web (Frontend)</li>
-  <li>Lógica e operações com PHP (Backend)</li>
-  <li>Modelagem e manipulação de dados com MySQL</li>
-  <li>Organização modular para aplicações na área da saúde corporativa</li>
-</ul>
 
 <hr>
 

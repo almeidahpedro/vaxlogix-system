@@ -14,7 +14,7 @@ jobs:
         image: mysql:8.0
         env:
           MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: testdb
+          MYSQL_DATABASE: vaxlogix_db
         ports:
           - 3306:3306
         options: >-
@@ -35,22 +35,34 @@ jobs:
       - name: Verificar versão do PHP
         run: php -v
 
-      - name: Instalar dependências (se estiver usando composer)
+      - name: Instalar dependências PHP (composer)
         run: |
           if [ -f composer.json ]; then
             composer install
+          else
+            echo "composer.json não encontrado — pulando instalação PHP"
           fi
 
-      - name: Rodar testes PHP (se existirem)
+      - name: Rodar testes PHP
         run: |
           if [ -d tests ]; then
             ./vendor/bin/phpunit tests
           else
-            echo "Sem testes configurados ainda."
+            echo "Nenhuma pasta de testes encontrada — pulando testes PHP"
           fi
-          
-      - name: Instalar pacotes front-end
-        run: npm install
 
-      - name: Build do projeto front-end
-        run: npm run build
+      - name: Instalar pacotes front-end (se existir package.json)
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          else
+            echo "Nenhum front-end detectado — pulando npm install"
+          fi
+
+      - name: Build do front-end (se existir package.json)
+        run: |
+          if [ -f package.json ]; then
+            npm run build
+          else
+            echo "Nenhum build necessário — pulando npm run build"
+          fi

@@ -1,0 +1,56 @@
+name: PHP + MySQL CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: testdb
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Verificar versão do PHP
+        run: php -v
+
+      - name: Instalar dependências (se estiver usando composer)
+        run: |
+          if [ -f composer.json ]; then
+            composer install
+          fi
+
+      - name: Rodar testes PHP (se existirem)
+        run: |
+          if [ -d tests ]; then
+            ./vendor/bin/phpunit tests
+          else
+            echo "Sem testes configurados ainda."
+          fi
+          
+      - name: Instalar pacotes front-end
+        run: npm install
+
+      - name: Build do projeto front-end
+        run: npm run build

@@ -1,0 +1,11 @@
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar dependências
+vendor/
+node_modules/
+
+# Ignorar arquivos de sistema/editor
+.DS_Store
+.idea/
+*.log

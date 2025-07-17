@@ -45,7 +45,7 @@
 
 ## <span style="display:inline-block;width:6px;height:20px;background-color:#00BCD4;border-radius:3px;margin-right:8px;"></span> Observação
 
-<sub><em>Projeto aplicado para estudos.</em></sub>
+<strong><em>Projeto aplicado para estudos.</em></strong>
 
 ## <span style="display:inline-block;width:6px;height:20px;background-color:#00BCD4;border-radius:3px;margin-right:8px;"></span> Acesso ao Projeto
 

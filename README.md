@@ -53,5 +53,5 @@
 
 ## <span style="display:inline-block;width:6px;height:20px;background-color:#00BCD4;border-radius:3px;margin-right:8px;"></span> Screenshots
 
-[<img src="dba/assets/der_vaxlogix.png" alt="Screenshot - Diagrama ER" width="220px" style="border:1px solid #ccc; border-radius:6px;">](dba/assets/der_vaxlogix.png)  
+[<img src="dba/assets/img/der_vaxlogix.png" alt="Screenshot - Diagrama ER" width="220px" style="border:1px solid #ccc; border-radius:6px;">](dba/assets/img/der_vaxlogix.png)  
 <sub style="color: #ccc;">Diagrama Entidade-Relacionamento do banco de dados VaxLogix</sub>
